@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="ProcessForm" method="POST">
+First name:<br>
+<input type="text" name="firstname">
+<br><br>
+Last name:<br>
+<input type="text" name="lastname">
+ 
+ <br>
+  <label for="male">Male</label>
+  <input type="radio" name="sex" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="sex" id="female" value="female"><br>
+
+<p>Please choose your favourite kind of food.</p>
+<select name="food">
+<optgroup label="Asian Food">
+<option value="Chinese">Chinese</option>
+<option value="Japanese">Japanese</option>
+<option value="Korean">Korean</option>
+</optgroup>
+<optgroup label="Euro Food">
+<option value="French">French</option>
+<option value="Italian">Italian</option>
+</optgruop>
+</select>
+<br><br>
+ <button type="submit">Submit</button> 
+<br>
+</form> 
+</body>
+</html>
